@@ -33,5 +33,8 @@ If in the excel sheet you are using the column containing the email IDs is suppo
   
  In the Excel Sheet: 
  There has to be a column with the title "Followup Date".
- 
  The status column can take only two values Under review/ Rejected.
+ 
+ The filename of the excel sheet has to be "Internship applications". If you want to change it then you will have to edit the following  line in the ReadingExcel.py file:
+ wb = openpyxl.load_workbook('YOUR FILENAME.xlsx')
+  
